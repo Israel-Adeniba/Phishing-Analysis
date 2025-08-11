@@ -30,7 +30,6 @@ Phishing Attack Types <br />
 <br />
 
 - Quishing: A cyberattack known as "QR code phishing" where a cybercriminal uses QR codes to trick individuals into visiting malicious websites or downloading malware onto their devices. Victims are deceived into scanning a malicious QR code that can be embedded in various forms, such as posters, emails, or even placed over legitimate QR codes, aiming to steal sensitive information like passwords, financial data, or personal details. < br />
-< br />
 
 
 Phishing Analysis Methodology <br />
@@ -41,10 +40,24 @@ Phishing Analysis Methodology <br />
 - Initial triage: Quickly assess and prioritize according to potential threat level. Determine the appropriate level of response, timing of response and allocation of resources for further analysis. <br />
 <br />
 
-- Analyze the email header: Examine the header for details about the sender's identity, mail servers, and the path the email took. This can reveal spoofed sender addresses, malicious IP addresses, and other anomalies. <br />
+- Analyze the email header: Examine the header for details about the sender's identity, mail servers, and the path the email took. The header contains important metadata that can be used to analyze and assess details like spoofed sender addresses, malicious IP addresses, and other anomalies. True origin can be identified and authenticity chckeded <br />
+<br />
+  
+- Analyze the email body: Scrutinize the content for suspicious language, errors, formatting, call to action, requests for sensitive information, or any other social enginring red flags like scarcity, urgency, authority, trust etc.  <br />
 <br />
 
-- Analyze the email body:
+- Analyze attachments: Check for malicious files that could harm your system and be cautious of unexpected file types like .exe, .scr, .zip, or .rar, as these are often used to deliver malware. Using malware analysis techniques like sanboxing, file signature analysis and behavioral analysis, examine attachments, file type, content and behaviour. <br />
+<br />
+
+- Verify URLs: Analyze links for suspicious domains, shortened URLs, or redirects to malicious websites. Check for HTTPS, examine the website's design, and use online tools like URLScan.io and VirusTotal. This is basically to determine their legitimacy and destination. <br />
+<br />
+
+- Contextual Examnation
+
+
+- Determine the phishing technique: Identify if it's a spear phishing, clone phishing, or another type of attack.
+
+
 
 
 This Phishing Analysis will be focused on Phishing emails and attachments. This will be done primarily within the Ubuntu Virtual Machine. <br />
