@@ -56,7 +56,7 @@ Select the channek to use  by copying the "Stable" command <br />
 <img src="https://i.imgur.com/6cE2pTM.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
 <br />
 <br />
-Run the "sudo apt-get update" command and the "sudo apt-get install sublime-text" command
+Run the "sudo apt-get update" command and the "sudo apt-get install sublime-text" command'<br />
 <img src="https://i.imgur.com/9cD5dxK.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
 <br />
 <br />
@@ -66,7 +66,10 @@ Run the "sudo apt-get update" command and the "sudo apt-get install sublime-text
 <img src="https://i.imgur.com/1tILb5b.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
 <br />
 <br />
-
+To confirm the installation of Sublime text, click the applications menu <br />
+<img src="https://i.imgur.com/IFQvONu.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
+<br />
+<br />
 
 
 
