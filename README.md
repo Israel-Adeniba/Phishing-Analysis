@@ -8,6 +8,16 @@ Typically, these deceptive (phishing) emails or messages appearing to be from a 
 <br />
 <br />
 
+Goals of Phishing <br />
+- Impersonation; poing as legitimate organizations or individuals
+- Stealing sensitive information; credentials, passwords, credit card numbers, PII, senitive files
+- Deliver and install malware; via attachments, embedded files, URLs etc.
+- Exploit humans; human psychology, prey on motions 
+
+
+
+
+
 Phishing Attack Types <br />
 
 
@@ -24,7 +34,7 @@ Types of Phishing <br />
 - Smishing: A phishing attack that targets individuals through SMS (Short Message Service) or text messages. The term is a combination of “SMS” and “phishing.” The attacker sends deceptive text messages to lure victims into sharing sensitive personal or financial information, clicking on malicious links, or downloading malwareware. <br />  
 < br />
 
-- Quishing: A cyberattack known as "QR code phishing" where a cybercriminal uses QR codes to trick individuals into visiting malicious websites or downloading malware onto their devices. These malicious QR codes can be embedded in various forms, such as posters, emails, or even placed over legitimate QR codes, aiming to steal sensitive information like passwords, financial data, or personal details. < br />
+- Quishing: A cyberattack known as "QR code phishing" where a cybercriminal uses QR codes to trick individuals into visiting malicious websites or downloading malware onto their devices. Victim are deceived into scanning a malicious QR code which can be embedded in various forms, such as posters, emails, or even placed over legitimate QR codes, aiming to steal sensitive information like passwords, financial data, or personal details. < br />
 < br />
 < br />
 
