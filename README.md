@@ -1,8 +1,28 @@
 # Phishing-Analysis
-This will be done primarily within the Ubuntu Virtual Machine
+
+ Let's do a quick introduction on Phishing attacks <br />
+
+ 
+
+Phishing is a type of Cyber attack and a form of Social engineering that targets individuals through email, text messages, phone calls and other forms of communication. <br />
+Social engineering is an attack that exploits the human side of cyber security rather than any kind of technical vulnerability. The common goal is to gain unauthorized access to a system, exfiltrate data or gain some sort of user credentials that can be spoofed or impersonated. <br />
 
 
-Utilities
+
+
+Phishing Attack Types <br />
+
+
+Types of Phishing <br />
+- Spear Phishing: Targeted form of Phishing where an attacker tailors the mesage to a specific individual or organization. Thi requires a lot of research so an attacker can gain some form of credibility to make the attack successful.
+- Whaling: A typ of spear phishing that targets high profole inividuals
+
+Phihsing involves sending deceptive emails or a message to an individual, appearing to be from a legitimate source like an employer, bank or a trusted organization. <br />
+
+Typically, these phishing emails contain an attachment or malicious link when clicked would lead the user to a malicious website to trick the user into putting their credentials or download malware. <br />
+
+This Phishing Analysis will be focused on Phishing emails and attachments. This will be done primarily within the Ubuntu Virtual Machine. <br />
+Utilities <br />
 Mozilla Thunderbird <br />
 Sublime text <br />
 
