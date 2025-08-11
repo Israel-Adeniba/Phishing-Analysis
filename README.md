@@ -4,50 +4,59 @@ A brief introduction to Phishing attacks <br />
 
 Phishing is a type of cyber attack and a form of social engineering that targets individuals through email, text messages, phone calls and other forms of communication. It is an attack that exploits the human side of cyber security rather than any kind of technical vulnerability. The common goal is to gain unauthorized access to a system, exfiltrate data or gain some sort of user credentials that can be spoofed or impersonated. <br />
 
-Typically, these deceptive (phishing) emails or messages appearing to be from a legitimate source like an employer, bank or a trusted organization contain an attachment or malicious link when clicked would lead the user to a malicious website to trick the user into putting their credentials or download malware.
+Typically, these deceptive (phishing) emails or messages appearing to be from a legitimate source like an employer, bank or a trusted organization contain an attachment or malicious link when clicked would lead the user to a malicious website to trick the user into putting their credentials or downloading malware.
 <br />
 <br />
 
 Goals of Phishing <br />
-- Impersonation; poing as legitimate organizations or individuals
-- Stealing sensitive information; credentials, passwords, credit card numbers, PII, senitive files
+- Impersonation; posing as legitimate organizations or individuals
+- Stealing sensitive information; credentials, passwords, credit card numbers, PII, sesnitive files
 - Deliver and install malware; via attachments, embedded files, URLs etc.
 - Exploit humans; human psychology, prey on motions 
 
 
-
-
-
 Phishing Attack Types <br />
 
-
-Types of Phishing <br />
 - Spear Phishing: Targeted form of Phishing where an attacker tailors the message to a specific individual or organization. This requires a lot of research so an attacker can gain some form of credibility to make the attack successful.<br />
 <br />
 
-- Whaling: A type of spear phishing that targets high profile inividuals within an organization example of such indivuals are senior exeecutives, senior management because these inividuals have a higher level of authorization or access to sensitive information <br />
+- Whaling: A type of spear phishing that targets high profile individuals within an organization, an example of such individuals are senior executives and senior management because these individuals have a higher level of authorization or access to sensitive information <br />
 <br />
 
-- Vishing: short for "voice phishing where an attacker uses phone calls or voice messages to trick individuals into revealing sensitive information. This information can include bank account details, passwords, or other personal data. Attackers often impersonate trusted organizations like banks or government agencies to gain the victim's trust. <br />
+- Vishing: Short for "voice phishing where an attacker uses phone calls or voice messages to trick individuals into revealing sensitive information. This information can include bank account details, passwords, or other personal data. Attackers often impersonate trusted organizations like banks or government agencies to gain the victim's trust. <br />
 <br />
 
-- Smishing: A phishing attack that targets individuals through SMS (Short Message Service) or text messages. The term is a combination of “SMS” and “phishing.” The attacker sends deceptive text messages to lure victims into sharing sensitive personal or financial information, clicking on malicious links, or downloading malwareware. <br />  
+- Smishing: A phishing attack that targets individuals through SMS (Short Message Service) or text messages. The term is a combination of “SMS” and “phishing.” The attacker sends deceptive text messages to lure victims into sharing sensitive personal or financial information, clicking on malicious links, or downloading malware. <br />  
+<br />
+
+- Quishing: A cyberattack known as "QR code phishing" where a cybercriminal uses QR codes to trick individuals into visiting malicious websites or downloading malware onto their devices. Victims are deceived into scanning a malicious QR code that can be embedded in various forms, such as posters, emails, or even placed over legitimate QR codes, aiming to steal sensitive information like passwords, financial data, or personal details. < br />
 < br />
 
-- Quishing: A cyberattack known as "QR code phishing" where a cybercriminal uses QR codes to trick individuals into visiting malicious websites or downloading malware onto their devices. Victim are deceived into scanning a malicious QR code which can be embedded in various forms, such as posters, emails, or even placed over legitimate QR codes, aiming to steal sensitive information like passwords, financial data, or personal details. < br />
-< br />
-< br />
+
+Phishing Analysis Methodology <br />
+
+- Identify the email as a potential Phishing attempt: Look out for common indicators like suspicious attachments, wrong spellings, urgency, links, suspicious sender addresses <br />
+<br />
+
+- Initial triage: Quickly assess and prioritize according to potential threat level. Determine the appropriate level of response, timing of response and allocation of resources for further analysis. <br />
+<br />
+
+- Analyze the email header: Examine the header for details about the sender's identity, mail servers, and the path the email took. This can reveal spoofed sender addresses, malicious IP addresses, and other anomalies. <br />
+<br />
+
+- Analyze the email body:
 
 
 This Phishing Analysis will be focused on Phishing emails and attachments. This will be done primarily within the Ubuntu Virtual Machine. <br />
-Utilities <br />
-Mozilla Thunderbird <br />
-Sublime text <br />
+
+<h1> Utilities </h1>
+
+- Mozilla Thunderbird <br />
+- Sublime text <br />
 
 
-We would require an actual email client so we can interract with email messages. <br />
-We would preferrably use "Mozilla Thundrbird" which is a free and open source email client <br />
-Open a terminal window > enter the command "sudo apt in stall thunderebird" <br />
+We would require an actual email client so we can interact with email messages, preferrably "Mozilla Thundrbird", a free and open source email client <br />
+Open a terminal window > enter the command "sudo apt install thunderebird" <br />
 <br />
 <br />
 <img src="https://i.imgur.com/dSLezVY.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
