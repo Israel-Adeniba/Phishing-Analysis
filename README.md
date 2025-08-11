@@ -44,6 +44,27 @@ Open Firefox > search "sublime text" > Click the first result > Install for linu
 <img src="https://i.imgur.com/SNtXrli.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
 <br />
 <br />
+To install Sublime text, we would run the "gpg key" and install the package. <br />
+Copy the GPG key, paste in the terminal <br />
+Select the channek to use  by copying the "Stable" command <br />
+<img src="https://i.imgur.com/K5lXqni.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/efniIwm.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/6cE2pTM.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
+<br />
+<br />
+
+
+
+
+
+
+
+
+
 
 
 
