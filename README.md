@@ -1,8 +1,11 @@
 # Phishing-Analysis
 This will be done primarily within the Ubuntu Virtual Machine
 
+
 Utilities
 Mozilla Thunderbird <br />
+Sublime text <br />
+
 
 We would require an actual email client so we can interract with email messages. <br />
 We would preferrably use "Mozilla Thundrbird" which is a free and open source email client <br />
@@ -31,5 +34,18 @@ Open thunderird > Privacy & Security > Check "Allow remote content in messages <
 <img src="https://i.imgur.com/1THnbZB.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
 <br />
 <br />
+
+To do some manual email file and header analysis, we need a text and code editor not just to rely on the terminal for the full analysis <br />
+We would be installing Sublime Text, an editor for code and different types of markup <br />
+Open Firefox > search "sublime text" > Click the first result > Install for linux <br />
+<img src="https://i.imgur.com/mlu34cO.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/SNtXrli.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
+<br />
+<br />
+
+
+
 
 
