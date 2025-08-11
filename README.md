@@ -1,25 +1,33 @@
 # Phishing-Analysis
 
- Let's do a quick introduction on Phishing attacks <br />
+A brief introduction to Phishing attacks <br />
 
- 
+Phishing is a type of cyber attack and a form of social engineering that targets individuals through email, text messages, phone calls and other forms of communication. It is an attack that exploits the human side of cyber security rather than any kind of technical vulnerability. The common goal is to gain unauthorized access to a system, exfiltrate data or gain some sort of user credentials that can be spoofed or impersonated. <br />
 
-Phishing is a type of Cyber attack and a form of Social engineering that targets individuals through email, text messages, phone calls and other forms of communication. <br />
-Social engineering is an attack that exploits the human side of cyber security rather than any kind of technical vulnerability. The common goal is to gain unauthorized access to a system, exfiltrate data or gain some sort of user credentials that can be spoofed or impersonated. <br />
-
-
-
+Typically, these deceptive (phishing) emails or messages appearing to be from a legitimate source like an employer, bank or a trusted organization contain an attachment or malicious link when clicked would lead the user to a malicious website to trick the user into putting their credentials or download malware.
+<br />
+<br />
 
 Phishing Attack Types <br />
 
 
 Types of Phishing <br />
-- Spear Phishing: Targeted form of Phishing where an attacker tailors the mesage to a specific individual or organization. Thi requires a lot of research so an attacker can gain some form of credibility to make the attack successful.
-- Whaling: A typ of spear phishing that targets high profole inividuals
+- Spear Phishing: Targeted form of Phishing where an attacker tailors the message to a specific individual or organization. This requires a lot of research so an attacker can gain some form of credibility to make the attack successful.<br />
+<br />
 
-Phihsing involves sending deceptive emails or a message to an individual, appearing to be from a legitimate source like an employer, bank or a trusted organization. <br />
+- Whaling: A type of spear phishing that targets high profile inividuals within an organization example of such indivuals are senior exeecutives, senior management because these inividuals have a higher level of authorization or access to sensitive information <br />
+<br />
 
-Typically, these phishing emails contain an attachment or malicious link when clicked would lead the user to a malicious website to trick the user into putting their credentials or download malware. <br />
+- Vishing: short for "voice phishing where an attacker uses phone calls or voice messages to trick individuals into revealing sensitive information. This information can include bank account details, passwords, or other personal data. Attackers often impersonate trusted organizations like banks or government agencies to gain the victim's trust. <br />
+<br />
+
+- Smishing: A phishing attack that targets individuals through SMS (Short Message Service) or text messages. The term is a combination of “SMS” and “phishing.” The attacker sends deceptive text messages to lure victims into sharing sensitive personal or financial information, clicking on malicious links, or downloading malwareware. <br />  
+< br />
+
+- Quishing: A cyberattack known as "QR code phishing" where a cybercriminal uses QR codes to trick individuals into visiting malicious websites or downloading malware onto their devices. These malicious QR codes can be embedded in various forms, such as posters, emails, or even placed over legitimate QR codes, aiming to steal sensitive information like passwords, financial data, or personal details. < br />
+< br />
+< br />
+
 
 This Phishing Analysis will be focused on Phishing emails and attachments. This will be done primarily within the Ubuntu Virtual Machine. <br />
 Utilities <br />
