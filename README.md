@@ -134,8 +134,11 @@ To confirm the installation of Sublime text, click the applications menu <br />
 <br />
 
 
+How to use Header Analysis to determine sender's identity and assess sender's legitimacy
+To view email headers in some email clients
+For Thunderbird; Click view > Message Source > 
 
-
+For Gmail; Click the menu icon > Click Download message to download a ".eml" file of the email OR Click Show original 
 
 
 
