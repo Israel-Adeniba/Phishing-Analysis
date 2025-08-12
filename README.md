@@ -68,7 +68,7 @@ This Phishing Analysis will focus on Phishing emails and it's attachments, condu
 <h1> Utilities </h1>
 - Mozilla Thunderbird <br />
 - Sublime text <br />
-
+<br />
 
 We require an actual email client to interact with email messages, preferrably "Mozilla Thundrbird", a free and open source option <br />
 Open a terminal window > enter the command "sudo apt install thunderebird" <br />
