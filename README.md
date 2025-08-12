@@ -40,7 +40,7 @@ Phishing Analysis Methodology <br />
 - Initial triage: Quickly assess and prioritize according to potential threat level. Determine the appropriate level of response, timing of response and allocation of resources for further analysis. <br />
 <br />
 
-- Analyze the email header: Examine the header for details about the sender's identity, mail servers, and the path the email took. The header contains important metadata that can be used to analyze and assess details like spoofed sender addresses, malicious IP addresses, and other anomalies. True origin can be identified and authenticity chckeded <br />
+- Analyze the email header: Examine the header for details about the sender's identity, mail servers, and the path the email took. The header contains important metadata that can be used to analyze and assess details like spoofed sender addresses, malicious IP addresses, and other anomalies. True origin can be identified and authenticity checked <br />
 <br />
   
 - Analyze the email body: Scrutinize the content for suspicious language, errors, formatting, call to action, requests for sensitive information, or any other social enginring red flags like scarcity, urgency, authority, trust etc.  <br />
@@ -52,8 +52,13 @@ Phishing Analysis Methodology <br />
 - Verify URLs: Analyze links for suspicious domains, shortened URLs, or redirects to malicious websites. Check for HTTPS, examine the website's design, and use online tools like URLScan.io and VirusTotal. This is basically to determine their legitimacy and destination. <br />
 <br />
 
-- Contextual Examnation
+- Contextual Examination: Perform a holistic analysis by considering the organization’s broader environment and any recent security incidents to assess the credibility of a phishing email. Review patterns in reported cases, check ticketing systems for similar incidents, and analyze the email copy along with identified IoCs or artifacts. Use these findings to conduct a threat hunt across the organization’s email system, identifying related attempts and recurring themes—such as sender addresses or threat actor tactics—to enable more proactive and efficient implementation of defensive measures. <br />
+<br />
 
+ - Defense measures: Upon detection of a phishing attempt, determine whether to apply proactive measures, reactive measures, or both—depending on its success.
+   Reactive measures are taken when the phishing attempt succeeds. These include activating incident response procedures for containment, mitigation, and remediation. For example, if a user is successfully phished and credentials are compromised, immediate actions may include temporarily disabling their account, reviewing login history, resetting credentials, and conducting further investigation to limit damage.c.
+   Proactive measures focus on preventing future incidents. These may involve implementing technical controls such as advanced email filtering, DNS blacklisting, and endpoint protection based on identified IoCs and artifacts. Additionally, proactive efforts should include educating users on phishing awareness, providing clear guidelines for recognizing suspicious emails, and ensuring employees know how to quickly report incidents to the SOC.
+ 
 
 - Determine the phishing technique: Identify if it's a spear phishing, clone phishing, or another type of attack.
 
