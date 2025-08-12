@@ -134,11 +134,43 @@ To confirm the installation of Sublime text, click the applications menu <br />
 <br />
 
 
-How to use Header Analysis to determine sender's identity and assess sender's legitimacy
-To view email headers in some email clients
-For Thunderbird; Click view > Message Source > 
+How to use Header Analysis to determine sender's identity and assess sender's legitimacy <br />
+Lets view email headers in some email clients<br />
+For Thunderbird; Click view > Message Source > <br />
+<img src="https://i.imgur.com/IlDhVgi.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
+<br />
+<br />
+For Gmail; Click the menu icon > Click Download message to download a ".eml" file of the email OR Click Show original <br />
+<img src="https://i.imgur.com/PXQSRnd.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/dodedsi.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
+<br />
+<br />
 
-For Gmail; Click the menu icon > Click Download message to download a ".eml" file of the email OR Click Show original 
+Head to the Ubuntu VM
+On the desktop, Open the "Phishing Analysis" folder > Open the "Header Analysis" folder > Open "sample1.eml"
+We have the email opened with thunderbird, we have common headers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
