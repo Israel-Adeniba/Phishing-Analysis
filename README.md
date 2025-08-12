@@ -55,25 +55,22 @@ Phishing Analysis Methodology <br />
 - Contextual Examination: Perform a holistic analysis by considering the organization’s broader environment and any recent security incidents to assess the credibility of a phishing email. Review patterns in reported cases, check ticketing systems for similar incidents, and analyze the email copy along with identified IoCs or artifacts. Use these findings to conduct a threat hunt across the organization’s email system, identifying related attempts and recurring themes—such as sender addresses or threat actor tactics—to enable more proactive and efficient implementation of defensive measures. <br />
 <br />
 
- - Defense measures: Upon detection of a phishing attempt, determine whether to apply proactive measures, reactive measures, or both—depending on its success.
-   Reactive measures are taken when the phishing attempt succeeds. These include activating incident response procedures for containment, mitigation, and remediation. For example, if a user is successfully phished and credentials are compromised, immediate actions may include temporarily disabling their account, reviewing login history, resetting credentials, and conducting further investigation to limit damage.c.
-   Proactive measures focus on preventing future incidents. These may involve implementing technical controls such as advanced email filtering, DNS blacklisting, and endpoint protection based on identified IoCs and artifacts. Additionally, proactive efforts should include educating users on phishing awareness, providing clear guidelines for recognizing suspicious emails, and ensuring employees know how to quickly report incidents to the SOC.
- 
+ - Defense measures: Upon detection of a phishing attempt, determine whether to apply proactive measures, reactive measures, or both—depending on its success.<br />
+ Reactive measures are taken when the phishing attempt succeeds. These include activating incident response procedures for containment, mitigation, and remediation. For example, if a user is successfully phished and credentials are compromised, immediate actions may include temporarily disabling their account, reviewing login history, resetting credentials, and conducting further investigation to limit damage.<br />
+   Proactive measures focus on preventing future incidents. These may involve implementing technical controls such as advanced email filtering, DNS blacklisting, and endpoint protection based on identified IoCs and artifacts. Additionally, proactive efforts should include educating users on phishing awareness, providing clear guidelines for recognizing suspicious emails, and ensuring employees know how to quickly report incidents to the SOC. <br /> 
+<br />
 
-- Determine the phishing technique: Identify if it's a spear phishing, clone phishing, or another type of attack.
+- Documentation and Reporting: Maintain accurate, detailed records in tickets, including findings, verdicts, and actions taken, to ensure future justification and traceability of decisions. <br />
+<br />
 
-
-
-
-This Phishing Analysis will be focused on Phishing emails and attachments. This will be done primarily within the Ubuntu Virtual Machine. <br />
+This Phishing Analysis will focus on Phishing emails and it's attachments, conducted primarily within the Ubuntu Virtual Machine. <br />
 
 <h1> Utilities </h1>
-
 - Mozilla Thunderbird <br />
 - Sublime text <br />
 
 
-We would require an actual email client so we can interact with email messages, preferrably "Mozilla Thundrbird", a free and open source email client <br />
+We require an actual email client to interact with email messages, preferrably "Mozilla Thundrbird", a free and open source option <br />
 Open a terminal window > enter the command "sudo apt install thunderebird" <br />
 <br />
 <br />
