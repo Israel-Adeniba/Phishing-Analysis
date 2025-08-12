@@ -144,20 +144,21 @@ For Gmail; Click the menu icon > Click Download message to download a ".eml" fil
 <img src="https://i.imgur.com/PXQSRnd.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
 <br />
 <br />
-<img src="https://i.imgur.com/dodedsi.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
-<br />
-<br />
+
 
 Head to the Ubuntu VM
 On the desktop, Open the "Phishing Analysis" folder > Open the "Header Analysis" folder > Open "sample1.eml"
-We have the email opened with thunderbird, we have common headers
-
-
-
-
-
-
-
+We have the email opened with thunderbird, we have common headers like the from, to, subject line, date and time stamp
+<img src="https://i.imgur.com/RUVROFl.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
+<br />
+<br />
+Lets open the email using sublime text, we right click on the "sample1.eml" and open with sublime text
+<img src="https://i.imgur.com/sMUP6vG.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/JhvAemD.png" height="80%" width="80%" alt="Building a SOC Lab Steps"/>
+<br />
+<br />
 
 
 
